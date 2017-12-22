@@ -13,10 +13,18 @@
 	height: 200px;
 }
 
-.portfolio-image {
-	width: 80%;
-	height: 80%;
-	margin-left: 10%;
+.projects-container {
+	/*width: 50%;
+	height: 50%;*/
+	height: 225px;
+	width: 300px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.projects-container img {
+	height: auto;
+	width: 100%;
 }
 
 .icon {
