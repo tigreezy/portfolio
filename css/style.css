@@ -1,0 +1,24 @@
+#navbar-text {
+	color: #FFFFFF;
+}
+
+#dropdown-text {
+	color: #6F473D;
+}
+
+.portrait {
+	border-width: 10px;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+.portfolio-image {
+	width: 80%;
+	height: 80%;
+	margin-left: 10%;
+}
+
+.icon {
+	color: white;
+}
