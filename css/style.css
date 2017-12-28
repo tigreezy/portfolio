@@ -23,8 +23,35 @@
 }
 
 .projects-container img {
-	height: auto;
+	/* auto for no stretch, need 100% for text to overlay entire image */
+	/*height: auto;*/
+	height: 100%;
 	width: 100%;
+}
+
+span.proj-text {
+	background: rgba(0,0,0,0.5);
+	opacity: 0;
+	display: table;
+	height: 225px;
+	width: 300px;
+	top: 0;
+	position: absolute;
+	color: white;
+	-webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+span.proj-text span {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+span.proj-text:hover {
+	opacity: 1;
 }
 
 .icon {
