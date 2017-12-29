@@ -20,6 +20,8 @@
 	width: 300px;
 	overflow: hidden;
 	margin: 0 auto;
+	margin-bottom: 20px;
+	border-radius: 2.5px;
 }
 
 .projects-container img {
