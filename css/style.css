@@ -40,6 +40,7 @@ span.proj-text {
 	top: 0;
 	position: absolute;
 	color: white;
+	border-radius: 2.5px;
 	-webkit-transition: opacity 500ms;
     -moz-transition: opacity 500ms;
     -o-transition: opacity 500ms;
